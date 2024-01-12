@@ -1,0 +1,17 @@
+body {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#loading {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

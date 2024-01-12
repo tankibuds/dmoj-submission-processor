@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Processor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container center-content">
+        <a href="https://dmoj.ca/user/tankibuds">
+            <img src="../static/blobpopcorn.png" alt="blobpopcorn" class="mb-4" style="width: 100px; height: 100px;">
+        </a>
+        <h1 class="mt-4 mb-4">tankibuds' DMOJ Submission Processor</h1>
+
+        {{ status }}
+
+        <a href="{{ url_for('download', filename='processed_submissions.zip') }}" class="btn btn-success">
+            Download
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXxg4t6Q8p5SN5e9xgCJkF0Cq0q2zD6G/dC" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JhJ75qVHS4SNpRT7CptzNHLaDW5Pw1ATLjW/ET5jJ7b5LdNEFZb/J7MFF9Jl0y1u" crossorigin="anonymous"></script>
+</body>
+</html>
