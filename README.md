@@ -11,7 +11,7 @@ Navigate to the folder containing `main.py` and run the command:
 
 `python main.py`
 
-Then enter your DMOJ username and upload the zip file obtained from the "Download your data" button in your user profile and filter by the result AC.
+Then open the link from the terminal, enter your DMOJ username, and upload the zip file obtained from the "Download your data" button in your user profile and filter by the result AC.
 
 ![DMOJ data download image](https://media.discordapp.net/attachments/1091348803401023560/1195511876575035602/image.png?ex=65b44232&is=65a1cd32&hm=dc155592f69cf5d64a63d81a293750bb194b94e5901a564c195eaa741d62dbcc&=&format=webp&quality=lossless&width=1440&height=502)
 
