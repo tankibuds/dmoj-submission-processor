@@ -1,5 +1,3 @@
-# tankibuds' DMOJ Submission Processor
-
 ![submission uploader image](https://cdn.discordapp.com/attachments/1091348803401023560/1195512816929603645/image.png?ex=65b44313&is=65a1ce13&hm=cfdcc3b4c978cb67a7f13d64537b6027e7c24f94983f3fe238b1f64e3532c8ef&)
 
 This is a tool to process all of a user's [DMOJ](https://dmoj.ca) AC submissions into a downloadable zip.
